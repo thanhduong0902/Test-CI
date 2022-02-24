@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;1,100;1,200;1,400&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    background-image: linear-gradient(45deg, rgb(65, 88, 208) 0%, rgb(200, 88, 192) 50%, rgb(255, 204, 112) 100%);
+}
+
+.main {
+    position: relative;
+    width: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 1px solid bisque;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+.tittle {
+    font-size: 30px;
+    padding: 15px;
+    color: aliceblue;
+    background-image: linear-gradient(45deg, rgb(163, 76, 76), rgb(189, 40, 40));
+}
+
+.content {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.game {
+    padding-top: 20px;
+}
+
+input {
+    border: 1px solid black;
+    padding-right: 20px;
+    height: 30px;
+}
+
+button {
+    height: 30px;
+    background-image: linear-gradient(45deg, yellow, green);
+    margin-left: 20px;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+@media(max-width:767px) {
+    .main {
+        width: 700px;
+    }
+
+
+}
+
+@media(max-width:575px) {
+    .main {
+        width: 700px;
+    }
+}
+
+@media(max-width: 480px) {
+    .main {
+        width: 100%;
+    }
+}
