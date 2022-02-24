@@ -15,9 +15,11 @@ function roll() {
     }
     else {
         if (Number(value) == ans()) {
+            count = 0;
             Swal.fire({
                 icon: 'success',
                 title: 'Bạn đã chiến thắng',
+                text:'Con số may mắn là' + ans() +'',
             })
         }
         else {
